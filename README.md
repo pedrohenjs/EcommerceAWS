@@ -13,6 +13,7 @@ O mesmo foi desenvolvido utilizando o CDK da AWS.
 2. Execute `npm install` para instalar as dependências
 
 ## Serviços AWS Utilizados
+- AWS CDK para facilitar a criação de recursos na AWS
 - AWS Lambda para execução de tarefas assíncronas
 - AWS CloudFormation para a criação de stacks e agrupamento de recursos na nuvem
 
