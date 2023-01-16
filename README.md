@@ -1,14 +1,26 @@
-# Welcome to your CDK TypeScript project
+# Ecommerce Back-End
 
-This is a blank project for CDK development with TypeScript.
+Este é o repositório do back-end do meu ecommerce. Ele foi desenvolvido utilizando o TypeScript e os serviços cloud da AWS.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+O mesmo foi desenvolvido utilizando o CDK da AWS.
 
-## Useful commands
+## Requisitos
+- Node.js 14.0 ou superior
+- AWS account
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+## Instalação
+1. Clone este repositório
+2. Execute `npm install` para instalar as dependências
+
+## Serviços AWS Utilizados
+- AWS Lambda para execução de tarefas assíncronas
+- AWS CloudFormation para a criação de stacks e agrupamento de recursos na nuvem
+
+## Rotas da API
+- `POST /products`: Adiciona um novo produto
+
+## Contribuição
+Sinta-se livre para contribuir com este projeto. Abra uma issue ou envie um pull request.
+
+## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
